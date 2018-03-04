@@ -1,0 +1,25 @@
+@font-face{
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+@font-face{
+    font-family: semibold-font;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: JF-Flat;
+    src: url(../fonts/JF-Flat-regular.ttf);
+}
+
+body {
+    font-family: ar-font, 'OpenSans' 'Times New Roman', Times, serif;
+}
+
+@import '_variables';
+@import '_main';
